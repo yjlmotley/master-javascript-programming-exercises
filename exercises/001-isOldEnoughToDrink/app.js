@@ -1,5 +1,8 @@
 function isOldEnoughToDrink(age) {
     // your code here
-    // started exercise
-    // test test
+    if (age < 21) {
+        return false
+    } else {
+        return true
+    }
 }
